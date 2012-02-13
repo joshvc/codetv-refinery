@@ -1,0 +1,43 @@
+---
+nl:
+  plugins:
+    drivers:
+      title: Drivers
+    teams:
+      title: Teams
+  admin:
+    drivers:
+      actions:
+        create_new: Maak een nieuwe Driver
+        reorder: Wijzig de volgorde van de Drivers
+        reorder_done: Klaar met het wijzingen van de volgorde van de Drivers
+      records:
+        title: Drivers
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Drivers. Druk op 'Maak een nieuwe Driver' om
+          de eerste aan te maken.
+      driver:
+        view_live_html: Bekijk deze driver op de website <br/><em>(opent een nieuw
+          venster)</em>
+        edit: Bewerk deze driver
+        delete: Verwijder deze driver voor eeuwig
+    teams:
+      actions:
+        create_new: Maak een nieuwe Team
+        reorder: Wijzig de volgorde van de Teams
+        reorder_done: Klaar met het wijzingen van de volgorde van de Teams
+      records:
+        title: Teams
+        sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+        no_items_yet: Er zijn nog geen Teams. Druk op 'Maak een nieuwe Team' om de
+          eerste aan te maken.
+      team:
+        view_live_html: Bekijk deze team op de website <br/><em>(opent een nieuw venster)</em>
+        edit: Bewerk deze team
+        delete: Verwijder deze team voor eeuwig
+  drivers:
+    show:
+      other: Andere Drivers
+  teams:
+    show:
+      other: Andere Teams

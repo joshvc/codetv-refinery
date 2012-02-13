@@ -1,0 +1,44 @@
+---
+nb:
+  plugins:
+    drivers:
+      title: Drivers
+    teams:
+      title: Teams
+  admin:
+    drivers:
+      actions:
+        create_new: Lag en ny Driver
+        reorder: Endre rekkefølgen på Drivers
+        reorder_done: Ferdig å endre rekkefølgen Drivers
+      records:
+        title: Drivers
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Drivers enda. Klikk på "Lag en ny Driver" for å
+          legge til din første driver.
+      driver:
+        view_live_html: Vis hvordan denne driver ser ut offentlig <br/><em>(åpner
+          i et nytt vindu)</em>
+        edit: Rediger denne driver
+        delete: Fjern denne driver permanent
+    teams:
+      actions:
+        create_new: Lag en ny Team
+        reorder: Endre rekkefølgen på Teams
+        reorder_done: Ferdig å endre rekkefølgen Teams
+      records:
+        title: Teams
+        sorry_no_results: Beklager! Vi fant ikke noen resultater.
+        no_items_yet: Det er ingen Teams enda. Klikk på "Lag en ny Team" for å legge
+          til din første team.
+      team:
+        view_live_html: Vis hvordan denne team ser ut offentlig <br/><em>(åpner i
+          et nytt vindu)</em>
+        edit: Rediger denne team
+        delete: Fjern denne team permanent
+  drivers:
+    show:
+      other: Andre Drivers
+  teams:
+    show:
+      other: Andre Teams

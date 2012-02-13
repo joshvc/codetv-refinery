@@ -1,0 +1,42 @@
+/*
+  Override default refinery application CSS below.
+  Formatting applies to all frontend.
+*/
+
+@import url('refinery/application.css');
+
+body {
+  background: #fff;
+  font-family: Helvetica;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+a {
+  color:#FEA47D;
+}
+
+.logo {
+  background-image:url('/images/logo.png');
+  background-repeat:no-repeat;
+  height:300px;
+}
+
+.body_content {
+  float: left;
+  width: 70%;
+  background: white;
+  color: #333;
+  padding: 0 20px 0 0;
+}
+
+.side_body_content {
+  float: right;
+  width: 20%;
+  background: #ccc;
+  color: #333;
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px;
+}
+

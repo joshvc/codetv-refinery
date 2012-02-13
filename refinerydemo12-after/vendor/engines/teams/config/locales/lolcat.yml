@@ -1,0 +1,46 @@
+---
+lolcat:
+  shared:
+    admin:
+      image_picker:
+        image: IMAGE
+  plugins:
+    drivers:
+      title: Drivers
+    teams:
+      title: Teams
+  admin:
+    drivers:
+      actions:
+        create_new: CREATE NEW Driver
+        reorder: REORDR Drivers
+        reorder_done: DUN REORDERIN Drivers
+      records:
+        title: Drivers
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Drivers YET. CLICK "CREATE NEW Driver" 2 ADD UR FURST
+          driver.
+      driver:
+        view_live_html: VIEW DIS driver LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS driver
+        delete: REMOOV DIS driver FOREVR
+    teams:
+      actions:
+        create_new: CREATE NEW Team
+        reorder: REORDR Teams
+        reorder_done: DUN REORDERIN Teams
+      records:
+        title: Teams
+        sorry_no_results: SRY! THAR R NO RESULTS FINDZ.
+        no_items_yet: THAR R NO Teams YET. CLICK "CREATE NEW Team" 2 ADD UR FURST
+          team.
+      team:
+        view_live_html: VIEW DIS team LIV <BR/><EM>(OPENS IN NEW WINDOW)</EM>
+        edit: EDIT DIS team
+        delete: REMOOV DIS team FOREVR
+  drivers:
+    show:
+      other: OTHR Drivers
+  teams:
+    show:
+      other: OTHR Teams

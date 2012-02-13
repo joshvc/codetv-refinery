@@ -1,0 +1,11 @@
+<% content_for :body_content_left do %>
+  <ul id="drivers">
+    <% @drivers.each do |driver| %>
+      <li>
+        <%= link_to driver.name, driver_path(driver) %>
+      </li>
+    <% end %>
+  </ul>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

@@ -1,0 +1,28 @@
+<ul>
+  <% if Admin::TeamsController.searchable? %>
+    <li>
+      <%= render :partial => "/shared/admin/search",
+                  :locals => {
+                    :url => admin_teams_path
+                  } %>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to t('.create_new'), new_admin_team_path,
+                 :class => "add_icon" %>
+  </li>
+<% if !searching? and Admin::TeamsController.sortable? and Team.count > 1 %>
+  <li>
+    <%= link_to t('.reorder', :what => "Teams"),
+                 admin_teams_path,
+                 :id => "reorder_action",
+                 :class => "reorder_icon" %>
+
+    <%= link_to t('.reorder_done', :what => "Teams"),
+                 admin_teams_path,
+                 :id => "reorder_action_done",
+                 :style => "display: none;",
+                 :class => "reorder_icon" %>
+  </li>
+<% end %>
+</ul>
